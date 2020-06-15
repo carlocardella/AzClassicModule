@@ -2,7 +2,7 @@
 
 ![CI](https://github.com/carlocardella/AzClassicModule/workflows/CI/badge.svg)
 
-[CloudNotes.io](https://www.cloudnotes.io)
+[CloudNotes.io](https://www.cloudnotes.io) 🔗
 
 Manage Azure Service Manager (RDFE, classic) resources through Azure Resource Manager (ARM) Resource Providers. 
 
