@@ -1,0 +1,37 @@
+
+vscode extension: fabiospampinato.vscode-todo-plus
+
+
+ResourceProviders:
+    ☐ function:
+    λ 38 carloc@CARLOC1 2019-10-22T07:15:07 carloc >_ Get-AzResourceProvider -list | ? ProviderNamespace -Match classic | select ProviderNamespace
+
+    ProviderNamespace
+    -----------------
+    Microsoft.ClassicStorage
+    Microsoft.ClassicCompute
+    Microsoft.ClassicInfrastructureMigrate
+    Microsoft.ClassicNetwork
+    Microsoft.ClassicSubscription
+
+
+GET:
+    ☐ Get-AzClassicStorageContainer
+    ☐ Get-AzClassicStorageBlob
+
+NEW:
+    ☐ New-AzClassicStorageContainer
+    ☐ New-AzClassicStorageBlob
+
+
+ADD:
+
+
+REMOVE:
+    ☐ Remove-AzClassicStorageContainer
+    ☐ Remove-AzClassicStorageBlob
+
+VARIOUS:
+    ☐ Update-AzClassicStorageKey
+
+BUGS:
