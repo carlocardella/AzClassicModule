@@ -20,7 +20,7 @@ function Add-AzClassicCertificate {
     Default: 2015-10-01
 
     .EXAMPLE
-    Add-AzClassicCertificate -ServiceName MyCloudServiceeFile C:\LocalTemp\badcert\CN=oaas-prod-keyvault1-auth-10-17.azure-automation.net.pfx -Password $pwd -Verbose
+    Add-AzClassicCertificate -ServiceName MyCloudServiceeFile C:\LocalTemp\badcert\CN=prod-prod-keyvault1-auth-10-17.azure.com.pfx -Password $pwd -Verbose
 
     Name              : sha1-E3D34E1A8B1D354F89FB2CA147701945D6330805
     ResourceId        : /subscriptions/77fd10c6-6e20-4c82-a238-e38592f78346/resourceGroups/myResourceGroupMicrosoft.ClassicCompute/domainNames/MyCloudServMyCloudService9FB2CA147701945D6330805
