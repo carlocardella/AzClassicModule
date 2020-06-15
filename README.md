@@ -17,13 +17,21 @@ Install the latest `Az` module:
 
 ## Installation
 
-### Windows
+### Powershell Gallery
+
+Install the module from the PowershellGallery: https://www.powershellgallery.com/packages/AzClassicModule
+
+```powershell
+Install-Module -Name AzClassicModule -Scope 'CurrentUser' -AllowPrerelease -Force
+```
+
+### Clone on Windows
 
 Download the zip file or cloune the repo locally: copy the AzureOps folder under
 
 - `$env:PSUserProfile\Documents\WindowsPowershell\Modules` folder (for Windows Powershell)
 - `$env:PSUserProfile\Documents\Powershell\Modules` folder (for Powershell 7 / Powershell Core)
 
-### macOS
+### Clone on macOS
 
 Download the zip file or cloune the repo locally: copy the AzClassicModule folder under `/Users/<user>/.local/share/powershell/Modules/` folder
