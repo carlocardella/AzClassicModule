@@ -12,7 +12,7 @@
     RootModule           = 'AzClassicModule.psm1'
 
     # Version number of this module.
-    ModuleVersion        = '1.0.0'
+    ModuleVersion        = '1.0.1'
 
     # Supported PSEditions
     CompatiblePSEditions = 'Core', 'Desktop'
@@ -122,7 +122,7 @@
             # ReleaseNotes = ''
 
             # Prerelease string of this module
-            Prerelease = 'beta'
+            # Prerelease = 'beta'
 
             # Flag to indicate whether the module requires explicit user acceptance for install/update/save
             # RequireLicenseAcceptance = $false
