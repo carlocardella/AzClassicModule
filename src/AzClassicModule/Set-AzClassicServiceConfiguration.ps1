@@ -15,7 +15,7 @@
     .PARAMETER SettingValue
     New Setting value
 
-    .PARAMETER Settings
+    .PARAMETER SettingsList
     Array of HashTables containing the list of Settings to update
     E.g.: $SettingsList = @(
         @{

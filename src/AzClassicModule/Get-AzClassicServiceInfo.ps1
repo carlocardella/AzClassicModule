@@ -4,6 +4,12 @@
         Lists Production deployment Cloud Service basic properties from the current Azure Subscription
         Properties returned: ServiceName, Location, Label, Status, InstanceCount.
 
+    .PARAMETER ServiceName
+        The Classic Service to query
+
+    .PARAMETER IncludeStagingSlot
+        Query the Staging slot in addition to the Production slot
+
     .EXAMPLE
         Get-AzClassicServiceInfo -ServiceName MyCloudService
 

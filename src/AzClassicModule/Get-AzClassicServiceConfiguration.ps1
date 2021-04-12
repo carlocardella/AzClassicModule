@@ -8,13 +8,13 @@ function Get-AzClassicServiceConfiguration {
         The cloud service to query to return the configuration setting or certificates list
 
     .PARAMETER RoleName
-        Service role to query to return the requeted setting or certificates
+        Service role to query to return the requested setting or certificates
 
     .PARAMETER SettingName
         Setting to return from the service configuration file (cscfg)
 
     .PARAMETER Slot
-        Deployment slot to return the setting or certificats from 
+        Deployment slot to return the setting or certificate from 
 
     .PARAMETER Certificates
         Returns the Certificates listed in the Certificates section of the service configuration file (cscfg)
@@ -33,7 +33,7 @@ function Get-AzClassicServiceConfiguration {
     .EXAMPLE
     	Get-AzClassicServiceConfiguration -ServiceName MyCloudService -ResourceGroupName MyCloudService -SettingName SettingOne, OtherSetting | Format-Table -AutoSize
 
-	ServiceName     SettingName     Value
+        ServiceName     SettingName     Value
     	-----------     -----------     -----
     	MyCloudService  SettingOne      value1
     	MyCloudService  OtherSetting    value2
